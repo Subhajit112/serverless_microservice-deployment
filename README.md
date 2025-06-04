@@ -2,7 +2,7 @@
 
 This project demonstrates a complete serverless microservice deployment using **AWS Lambda**, **API Gateway**, **DynamoDB**, and **Terraform**, along with a CI/CD pipeline managed via **Jenkins**.
 
-## 🚀 Features
+##  Features
 
 - RESTful user profile API powered by AWS Lambda
 - Infrastructure as Code using Terraform
@@ -12,9 +12,10 @@ This project demonstrates a complete serverless microservice deployment using **
 - Secure IAM roles and policies
 - Scalable and cost-effective architecture
 
-## 🗂 Project Structure
+##  Project Structure
 
 serverless_microservice-deployment/
+
 ├── lambda/ # Lambda function handler and dependencies
 │ ├── user_handler.py
 │ └── requirements.txt
@@ -34,7 +35,7 @@ serverless_microservice-deployment/
 └── .gitignore
 
 
-## 🧪 How to Deploy
+##  How to Deploy
 
 ### Prerequisites
 
