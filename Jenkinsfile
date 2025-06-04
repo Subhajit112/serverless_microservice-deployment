@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Subhajit112/serverless_microservice-deployment.git'
+                git branch: 'main', credentialsId: 'git-cred', url: 'https://github.com/Subhajit112/serverless_microservice-deployment.git'
             }
         }
 
