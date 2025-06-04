@@ -17,21 +17,37 @@ This project demonstrates a complete serverless microservice deployment using **
 serverless_microservice-deployment/
 
 ├── lambda/ # Lambda function handler and dependencies
+
 │ ├── user_handler.py
+
 │ └── requirements.txt
+
 ├── terraform/ # Terraform code for AWS infrastructure
+
 │ ├── main.tf
+
 │ ├── variables.tf
+
 │ ├── iam.tf
+
 │ ├── lambda.tf
+
 │ ├── dynamodb.tf
+
 │ ├── api_gateway.tf
+
 │ └── outputs.tf
+
 ├── Jenkinsfile # Jenkins pipeline for CI/CD
+
 ├── tests/ # Basic unit tests for Lambda
+
 │ └── test_lambda.py
+
 ├── lambda_function_payload.zip # Zipped deployment package
+
 └── README.md
+
 └── .gitignore
 
 
