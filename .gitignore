@@ -1,1 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lambda package zip
+lambda_function_payload.zip
+package/
+
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*.tfplan
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jenkins logs and secrets
+secrets.*
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Unit test cache
+.pytest_cache/
 
